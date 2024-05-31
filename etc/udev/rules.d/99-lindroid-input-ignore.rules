@@ -1,0 +1,5 @@
+# Ignore all input devices by default
+ACTION=="add|change", KERNEL=="event*", ENV{ID_INPUT_IGNORE}="1"
+
+# Whitelist specific input devices
+ACTION=="add|change", KERNEL=="event*", ATTRS{name}=="Lindroid*", ENV{ID_INPUT_IGNORE}=""

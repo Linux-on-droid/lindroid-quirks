@@ -1,0 +1,6 @@
+lindroid-quirks (1.0) stable; urgency=low
+
+  * Initial release of lindroid-quirks.
+  * Automatically generates udev rules to enable specific input devices and disable all others.
+
+ -- Luka Panio <lukapanio@gmail.com>  Thu, 31 May 2024 17:04:00 +0002

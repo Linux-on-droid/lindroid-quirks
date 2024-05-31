@@ -1,0 +1,11 @@
+[Unit]
+Description=Bind mount /dev/null over /dev/input/event* unless name starts with Lindroid
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/bind_null_device.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

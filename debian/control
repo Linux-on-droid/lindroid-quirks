@@ -1,0 +1,13 @@
+Source: lindroid-quirks
+Section: base
+Priority: optional
+Maintainer: Luka Panio <lukapanio@gmail.com>
+Standards-Version: 1.0
+Build-Depends: debhelper-compat (= 12)
+
+Package: lindroid-quirks
+Version: 1.0
+Architecture: all
+Depends: systemd, udev
+Description: Enable Specific Input Devices Service
+ This package provides a systemd service and script to enable specific input devices and disable all others.

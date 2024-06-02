@@ -1,3 +1,4 @@
 etc/udev/rules.d/* lib/udev/rules.d/
 etc/systemd/system/* etc/systemd/system/
 usr/local/bin/* usr/local/bin/
+etc/sddm.conf.d/* etc/sddm.conf.d/

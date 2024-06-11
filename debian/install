@@ -1,2 +1,4 @@
 etc/udev/rules.d/* lib/udev/rules.d/
 etc/sddm.conf.d/* etc/sddm.conf.d/
+libtls-padding/libtls-padding.so usr/lib/
+libtls-padding/ld_preload_tls_padding.sh etc/profile.d/

@@ -1,3 +1,23 @@
 #!/usr/bin/make -f
 %:
 	dh $@
+
+override_dh_install:
+	dh_install
+	# Setuid the library to allow setuid programs (e.g. sudo) to preload this.
+	# I don't think any of setuid binaries actually need this, but glibc
+	# complains loudly (and vaguely) if it's not set, which breaks crossbuilder.
+	chmod 4644 debian/lindroid-quirks/usr/lib/libtls-padding.so
+
+override_dh_fixperms:
+	# Prevent dh_fixperms from messing with our setuid.
+	dh_fixperms -Xdebian/lindroid-quirks/usr/lib/libtls-padding.so
+
+
+override_dh_auto_build:
+	dh_auto_build
+	$(MAKE) -C libtls-padding
+
+override_dh_auto_clean:
+	dh_auto_clean
+	$(MAKE) -C libtls-padding clean

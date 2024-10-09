@@ -1,2 +1,4 @@
 /etc/udev/rules.d
 /etc/sddm.conf.d/
+/usr/lib/firefox/defaults/pref
+/usr/lib/firefox-esr/defaults/pref

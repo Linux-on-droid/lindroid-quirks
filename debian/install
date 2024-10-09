@@ -3,3 +3,4 @@ etc/sddm.conf.d/* etc/sddm.conf.d/
 etc/systemd/logind.conf.d/lindroid.conf /etc/systemd/logind.conf.d/
 libtls-padding/libtls-padding.so usr/lib/
 libtls-padding/ld_preload_tls_padding.sh etc/profile.d/
+usr/lib/firefox/defaults/pref/*.js /usr/lib/firefox/defaults/pref/

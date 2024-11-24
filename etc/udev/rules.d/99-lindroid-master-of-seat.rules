@@ -1,0 +1,1 @@
+ACTION=="add|change", KERNEL=="event*", ATTRS{name}=="Lindroid-Keyboard-*", TAG+="seat", TAG+="master-of-seat"

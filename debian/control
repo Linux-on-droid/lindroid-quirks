@@ -6,7 +6,7 @@ Standards-Version: 1.0
 Build-Depends: debhelper-compat (= 12)
 
 Package: lindroid-quirks
-Version: 1.0
+Version: 1.1
 Architecture: any
 Depends: systemd, udev
 Description: Enable Specific Input Devices Service

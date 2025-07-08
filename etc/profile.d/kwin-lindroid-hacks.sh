@@ -1,0 +1,5 @@
+export KWIN_DRM_USE_MODIFIERS=0
+export KWIN_DRM_NO_AMS=1
+export KWIN_COMPOSE=O2ES
+export GBM_BACKEND=hybris
+export __GLX_VENDOR_LIBRARY_NAME=libhybris

@@ -1,3 +1,9 @@
+lindroid-quirks (1.3) stable; urgency=low
+
+  * Adding quirks for sddm delay hack
+
+ -- RealJohnGalt <johngaltfirstrun@gmail.com>  Tue, 11 Aug 2025 12:46:00 +0002
+
 lindroid-quirks (1.2) stable; urgency=low
 
   * Adding quirks for lindroid drm to sdm and profile.d

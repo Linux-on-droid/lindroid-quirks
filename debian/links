@@ -1,2 +1,9 @@
 /usr/lib/firefox/defaults/pref/hybris-gpu.js /usr/lib/firefox-esr/defaults/pref/hybris-gpu.js
 /usr/lib/firefox/defaults/pref/hybris-webrender.js /usr/lib/firefox-esr/defaults/pref/hybris-webrender.js
+/dev/null /etc/systemd/user/pulseaudio.service
+/dev/null /etc/systemd/user/pulseaudio.socket
+/dev/null /etc/systemd/user/default.target.wants/pulseaudio.service
+/dev/null /etc/systemd/user/default.target.wants/pulseaudio.socket
+/usr/lib/systemd/user/pipewire.service /etc/systemd/user/default.target.wants/pipewire.service
+/usr/lib/systemd/user/pipewire-pulse.service /etc/systemd/user/default.target.wants/pipewire-pulse.service
+/usr/lib/systemd/user/wireplumber.service /etc/systemd/user/default.target.wants/wireplumber.service

@@ -7,3 +7,5 @@
 /usr/lib/systemd/user/pipewire.service /etc/systemd/user/default.target.wants/pipewire.service
 /usr/lib/systemd/user/pipewire-pulse.service /etc/systemd/user/default.target.wants/pipewire-pulse.service
 /usr/lib/systemd/user/wireplumber.service /etc/systemd/user/default.target.wants/wireplumber.service
+/dev/null /etc/systemd/system/dbus-org.freedesktop.ModemManager1.service
+/dev/null /etc/systemd/system/multi-user.target.wants/ModemManager.service

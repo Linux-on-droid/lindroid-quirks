@@ -2,8 +2,9 @@ lindroid-quirks (1.3) stable; urgency=low
 
   * Adding quirks for NetworkManager to disable wifi management
   * Adding quirks for forcing PipeWire
+  * Adding quirks for disabling ModemManager
 
- -- John Galt <johngaltfirstrun>  Wed, 24 Sep 2025 12:25:00 +0002
+ -- John Galt <johngaltfirstrun@gmail.com>  Wed, 24 Sep 2025 12:25:00 +0002
 
 lindroid-quirks (1.2) stable; urgency=low
 

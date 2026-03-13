@@ -1,4 +1,3 @@
-/usr/lib/firefox/defaults/pref/hybris-gpu.js /usr/lib/firefox-esr/defaults/pref/hybris-gpu.js
 /usr/lib/firefox/defaults/pref/hybris-webrender.js /usr/lib/firefox-esr/defaults/pref/hybris-webrender.js
 /dev/null /etc/systemd/user/pulseaudio.service
 /dev/null /etc/systemd/user/pulseaudio.socket
